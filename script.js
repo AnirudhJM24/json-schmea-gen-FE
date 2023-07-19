@@ -10,7 +10,7 @@ function generateSchema() {
         return;
     }
 
-    fetch("http://localhost:8080/json-schema", {
+    fetch("https://json-schema-gen-be.onrender.com/json-schema", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
