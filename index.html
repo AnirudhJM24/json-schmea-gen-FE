@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JSON Schema Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>JSON Schema Generator</h1>
+    <div>
+        <label for="jsonInput">JSON Data:</label><br>
+        <textarea id="jsonInput" class ="input-area" placeholder="Enter JSON data..."></textarea>
+    </div>
+    <div>
+        <button onclick="generateSchema()">Generate Schema</button>
+    </div>
+    <div>
+        <h2>Generated Schema:</h2>
+        <pre id="schemaResult"></pre>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

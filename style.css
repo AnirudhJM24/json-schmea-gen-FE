@@ -1,0 +1,93 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 200px;
+    resize: vertical;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    white-space: pre-wrap;
+    overflow-x: auto;
+  }
+  
+  /* Container styles */
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Header styles */
+  .header {
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f0f0f0;
+  }
+
+  .key {
+    /* Add color to the keys */
+    color: #007bff;
+    font-weight: bold;
+}
+    .input-area {
+        /* Prettify the input section */
+        width: 100%;
+        height: 200px;
+        resize: vertical;
+        padding: 5px;
+        background-color: #f0f0f0;
+        border-radius: 5px;
+    }
+  
+  /* Responsive styles for small screens */
+  @media screen and (max-width: 600px) {
+    textarea {
+      width: 100%;
+    }
+  }
+  
