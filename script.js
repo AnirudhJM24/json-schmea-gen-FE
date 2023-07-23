@@ -10,7 +10,7 @@ function generateSchema() {
         return;
     }
 
-    fetch("http://15.207.99.199:8080/json-schema", {
+    fetch("https://15.207.99.199:8080/json-schema", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
